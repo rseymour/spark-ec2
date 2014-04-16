@@ -72,6 +72,7 @@ else
     tar xvzf hive-*.tgz > /tmp/spark-ec2_hive.log
     rm hive-*.tgz
   fi
+  wget https://s3-us-west-2.amazonaws.com/json-hive-serde/json-serde-1.1.9.3-SNAPSHOT-jar-with-dependencies.jar -O  shark/lib/json-serde-1.1.9.3-SNAPSHOT-jar-with-dependencies.jar
 fi
 
 popd
